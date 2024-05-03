@@ -15,7 +15,6 @@ client_credentials = ClientCredential(client_id, client_secret)
 
 ctx = ClientContext(site_url).with_credentials(client_credentials, environment='') #put appropriate environment
 
-#Load 
 files = ctx.web.lists.get_by_title("Documents").root_folder.files
 ctx.load(files)
 ctx.execute_query()
