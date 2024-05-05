@@ -1,4 +1,5 @@
 # Credit Risk Model Data Preprocessing with NumPy
+Please check the Jupyter Notebook (pre-processing-loan-data.ipynb) for a  walkthrough of how the preprocessing was done. The notebook provides step-by-step explanations and code examples for each preprocessing task, including data loading and manipulation, currency conversion, variable quantification, and checkpoint creation.
 - loan-data.csv: Contains loan data records.
 - loan-data-dictionary.xlsx: Provides a dictionary explaining the columns in the loan data.
 - EUR-USD.csv: Contains currency exchange rate data.
